@@ -1,6 +1,16 @@
 body {background-color: darkturquoise;}
 
 .cover {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+li {
+    height: 200px;
+    display: block;
 }
